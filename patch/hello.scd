@@ -1,11 +1,8 @@
 s.boot
 
-// sig = { [SinOsc.ar(440, 0, 0.2), SinOsc.ar(482, 0, 0.2)] }.play;
-// sig.play;
-//sig.free;
 
-f = { "Func eval".postln };
-f;
+{SinOsc.ar}.play;
+k.free;
 
 (
 "ypur the ned".postln;
