@@ -1,13 +1,8 @@
-s.boot
+"hello".postln;
 
+{[SinOsc.ar(400, 0, 0.2), SinOsc.ar(432, 0, 0.2)]}.play;
 
-{SinOsc.ar}.play;
-k.free;
-
-(
-"ypur the ned".postln;
-"fuck righ toff".postln;
-"my name is md".postln;
-)
-
-s.quit
+f = {'gibberish'.postln};
+f = {2 * 2};
+f;
+f.value
