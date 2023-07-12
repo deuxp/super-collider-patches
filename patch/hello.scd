@@ -8,5 +8,25 @@ f = {2 * 2};
 f;
 f.value
 
+(
+{("hi" + "hi").postln}.value;
+{("hi" + "med").postln}.value;
+{("hi" + "lo").postln}.value;
+)
 
-{"hi" + "hi"}.value
+
+g = {3.0.rand};
+g.value;
+
+
+(
+var add, result;
+add = {
+  arg a, b;
+    a + b
+};
+
+result = add.value(7, 7);
+"result: ".postln;
+result;
+)
