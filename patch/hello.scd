@@ -30,3 +30,5 @@ result = add.value(7, 7);
 "result: ".postln;
 result;
 )
+
+{SinOsc.ar(440, 0, 0.2)}.play;
